@@ -1,9 +1,6 @@
-$(function () {
-    $(window).on('scroll', function () {
-        if ( $(window).scrollTop() > 10 ) {
-            $('.navbar').addClass('active');
-        } else {
-            $('.navbar').removeClass('active');
-        }
-    });
-});
+//try to have a random quote generator on the bottom of the webpage
+
+var theRandomNumber = Math.floor(Math.random()*10)+1;
+if (theRandomNumber = 1){
+
+}
